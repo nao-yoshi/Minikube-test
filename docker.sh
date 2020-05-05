@@ -4,28 +4,23 @@
 echo "========================================="
 echo "Start Docker Installation"
 echo "========================================="
-sudo yum -y remove docker \
+sudo yum remove docker \
   docker-client \
   docker-client-latest \
-  docker-common docker-latest \
+  docker-common \
+  docker-latest \
   docker-latest-logrotate \
   docker-logrotate \
-  docker-selinux \
-  docker-engine-selinux \
-  docker-engine \
+  docker-engine
 
-sudo yum install -y yum-utils \
-  device-mapper-persistent-data \
-  lvm2
-
+sudo yum install -y yum-utils
 sudo yum-config-manager \
-    --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
+  --add-repo \
+  https://download.docker.com/linux/centos/docker-ce.repo
 
-sudo yum -y install docker-ce
-systemctl start docker
-systemctl enable docker
+sudo yum install -y docker-ce docker-ce-cli containerd.io
+sudo systemctl start docker
+sudo systemctl enable docker
 sudo usermod -aG docker vagrant
-systemctl restart docker
-docker version
+sudo systemctl restart docker
 echo "========================================="
