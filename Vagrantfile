@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     vb.customize ['modifyvm', :id, '--cpus', 2]
     vb.customize ['modifyvm', :id, '--memory', 2048]
   end
-  config.vm.provision :shell, path: "bootstrap.sh"
-  config.vm.provision :shell, path: "docker.sh"
-  config.vm.provision :shell, path: "minikube.sh"
+  config.vm.provision :shell, path: "scripts/bootstrap.sh"
+  config.vm.provision :shell, path: "scripts/docker.sh"
+  config.vm.provision :shell, path: "scripts/minikube.sh"
 end
