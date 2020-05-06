@@ -28,6 +28,7 @@ You can deploy the test environment on your PC easily.
 3. Move to the directory of this repo **"/minikube-test"**.
 4. Execute a command below to build the test environment.
    ```
+   $ cd minikube-test
    $ vagrant up
    ```
 5. Wate for 5 to 10 minutes. After that, a VM (CentOS 7) will be deployed on VirtualBox. 
