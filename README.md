@@ -36,9 +36,14 @@ If you want to use Docker Compose, you can setup it with a command below.
   ```
   [vagrant@minikube ~]$ cd /vagrant/scripts
   ```
-2. Execute the shell scrypt "compose.sh".
+2. Edit "compose.sh" if you specify the configuration of your own environment.
+3. Execute the shell scrypt "compose.sh".
   ```
   [vagrant@minikube scripts]$ bash compose.sh
+  ```
+4. To open GUI of the registry, access the URL which is shown your screen.
+  ```
+  Example  http://localhost:8000/home
   ```
 
 ## Option 2 < Install Docker registry & docker-registry-frontend >
