@@ -1,20 +1,21 @@
-# Setup minikube environment on your PC
-This repo is for building a test environment of minikube on your PC.
+# Setup Minikube environment on your PC
+This repo is for building a test environment of [Minikube](https://github.com/kubernetes/minikube/) on your PC.
 
 
 ## Description
-This is the easiest way to test basic operation of Kubernetes on your PC. With just one command, the minikube will be deployed on a VM(CentOS 7) running on VirtualBox. The VM inclueds several softwares such as:
-- minikube
-- docker
-- docker compose
-- docker registry (optional)
-- docker-registry-frontend (optional)
+This is the easiest way to test basic operation of [Kubernetes](https://kubernetes.io/) on your PC. With just one command, the Minikube will be deployed on a VM(CentOS 7) running on VirtualBox. The VM inclueds several softwares such as:
+- Minikube
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Registry](https://docs.docker.com/registry/) (optional)
+- [docker-registry-frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/) (optional)
+- [Helm](https://helm.sh/) (optional)
 
 
 ## Requirement
 Before you try it, you need to install some softwares listed below on your PC. MAC OS and Windows OS should be fine.
-- Git
-- Virtual Box
+- [Git](https://git-scm.com/)
+- [VirtualBox](https://www.virtualbox.org/)
 
 
 ## Usage
@@ -65,6 +66,15 @@ If you want to use Docker private registry and docker-registry-frontend (GUI), y
 2. To open GUI of the registry, access the URL which is shown on your screen.
    ```
    Example  http://localhost:8000/home
+   ```
+
+
+### Option 3 (Install Helm)
+If you want to use Helm, you can setup those with a command below at **"/vagrant/script"** directory.
+
+1. Execute a command below.
+   ```
+   [vagrant@minikube scripts]$ bash helm.sh
    ```
 
 
