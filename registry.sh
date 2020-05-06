@@ -4,7 +4,7 @@
 ## Modify hostname or IP for URL of Frontend-GUI listed below.
 host=localhost
 
-## Modify port number for the URL of Frontend-GUI.
+## Modify port number for URL of Frontend-GUI.
 ext=8000
 
 ## Modify port number for Frontend container.
