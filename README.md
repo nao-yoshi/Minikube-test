@@ -25,7 +25,7 @@ You can deploy the test environment on your PC easily.
    ```
    $ git clone https://github.com/nao-yoshi/minikube-test.git
    ```
-3. Move to the directory of this repo **"/miikube-test"**.
+3. Move to the directory of this repo **"/minikube-test"**.
 4. Execute a command below to build the test environment.
    ```
    $ vagrant up
