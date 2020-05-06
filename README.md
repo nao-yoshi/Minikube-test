@@ -41,7 +41,7 @@ You can deploy the test environment on your PC easily.
    [vagrant@minikube ~]$ start minikube
    ```
 
-## Option 1 (Install Docker Compose)
+### Option 1 (Install Docker Compose)
 If you want to use Docker Compose, you can setup it instantly.
 
 1. Change your prompt to **"/vagrant/scripts"** directory.
@@ -55,7 +55,7 @@ If you want to use Docker Compose, you can setup it instantly.
    ```
 
 
-## Option 2 (Install Docker registry & docker-registry-frontend)
+### Option 2 (Install Docker registry & docker-registry-frontend)
 If you want to use Docker private registry and docker-registry-frontend (GUI), you can setup those with a command below at **"/vagrant/script"** directory.
 
 1. Execute a command below.
