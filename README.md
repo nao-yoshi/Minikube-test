@@ -6,7 +6,7 @@ This repo is for building a test environment of [Minikube](https://github.com/ku
 This is the easiest way to test basic operation of [Kubernetes](https://kubernetes.io/) on your PC. With just one command, the Minikube will be deployed on a VM(CentOS 7) running on VirtualBox. The VM inclueds several softwares such as:
 - Minikube
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Compose](https://docs.docker.com/compose/) (optional)
 - [Docker Registry](https://docs.docker.com/registry/) (optional)
 - [docker-registry-frontend](https://hub.docker.com/r/konradkleine/docker-registry-frontend/) (optional)
 - [Helm](https://helm.sh/) (optional)
