@@ -27,24 +27,24 @@ You can deploy the test environment on your PC easily.
   ```
 6. To start minikube, execute a command below.
   ```
-  $ start minikube
+  [vagrant@minikube ~]$ start minikube
   ```
 
 ## Option 1 < Install Docker Compose >
 If you want to use Docker Compose, you can setup it with a command below.
 1. Change your prompt to "/vagrant/scripts".
   ```
-  $ cd /vagrant/scripts
+  [vagrant@minikube ~]$ cd /vagrant/scripts
   ```
 2. Execute the shell scrypt "compose.sh".
   ```
-  $ bash compose.sh
+  [vagrant@minikube scripts]$ bash compose.sh
   ```
 
 ## Option 2 < Install Docker registry & docker-registry-frontend >
 If you want to use Docker private registry and docker-registry-frontend (GUI), you can setup it with a command below at "/vagrant/script" directory.
   ```
-  $ bash registry.sh
+  [vagrant@minikube scripts]$ bash registry.sh
   ```
 
 
@@ -52,11 +52,11 @@ If you want to use Docker private registry and docker-registry-frontend (GUI), y
 You can remove all of the test environment from your PC.
 
 1. Log off from VM(CentOS).
-2. Execute a command listed below at the directory "minikube".
+2. Execute a command below at the directory "minikube" on your PC.
 ```
 $ vagrant destroy
 ```
-3. Remove all of the software which were installed for this test.
+3. All of VMs running on VirualBox will be removed.
 
 
 ## Author
