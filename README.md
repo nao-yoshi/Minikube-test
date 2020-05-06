@@ -3,7 +3,7 @@ This repo is for building a test environment of minikube on your PC.
 
 
 ## Description
-This is the easiest way to test k3s with your PC.
+This is the easiest way to test basic operation of k8s on your PC.
 
 
 ## Requirement
