@@ -41,15 +41,17 @@ If you want to use Docker Compose, you can setup it with a command below.
   ```
   [vagrant@minikube scripts]$ bash compose.sh
   ```
-4. To open GUI of the registry, access the URL which is shown your screen.
-  ```
-  Example  http://localhost:8000/home
-  ```
+
 
 ## Option 2 < Install Docker registry & docker-registry-frontend >
 If you want to use Docker private registry and docker-registry-frontend (GUI), you can setup it with a command below at "/vagrant/script" directory.
+1. Execute a command below.
   ```
   [vagrant@minikube scripts]$ bash registry.sh
+  ```
+2. To open GUI of the registry, access the URL which is shown your screen.
+  ```
+  Example  http://localhost:8000/home
   ```
 
 
