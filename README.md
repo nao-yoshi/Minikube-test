@@ -1,5 +1,5 @@
-# minikube-test < Setup minikube environment in your PC >
-This repo is for building a test environment of minikube in your PC.
+# Setup minikube environment on your PC
+This repo is for building a test environment of minikube on your PC.
 
 
 ## Description
@@ -49,7 +49,7 @@ If you want to use Docker private registry and docker-registry-frontend (GUI), y
   ```
   [vagrant@minikube scripts]$ bash registry.sh
   ```
-2. To open GUI of the registry, access the URL which is shown your screen.
+2. To open GUI of the registry, access the URL which is shown on your screen.
   ```
   Example  http://localhost:8000/home
   ```
