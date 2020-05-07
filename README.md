@@ -32,7 +32,7 @@ You can deploy the test environment on your PC easily.
    $ cd minikube-test
    $ vagrant up
    ```
-5. Wate for 5 to 10 minutes. After that, a VM (CentOS 7) will be deployed on VirtualBox. 
+5. 5 to 10 minutes later, a VM (CentOS) will be deployed on VirtualBox. 
 6. Execute a command below to login to the CentOS from a terminal on your PC. At this moment, your prompt should be **"/minikube-test"** directory.
    ```
    $ vagrant ssh
