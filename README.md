@@ -16,6 +16,7 @@ This is the easiest way to test basic operation of [Kubernetes](https://kubernet
 Before you try it, you need to install some softwares listed below on your PC (MAC OS or Windows OS).
 - [Git](https://git-scm.com/)
 - [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
 
 
 ## Usage
