@@ -13,7 +13,7 @@ This is the easiest way to test basic operation of [Kubernetes](https://kubernet
 
 
 ## Requirement
-Before you try it, you need to install some softwares listed below on your PC. MAC OS and Windows OS should be fine.
+Before you try it, you need to install some softwares listed below on your PC (MAC OS or Windows OS).
 - [Git](https://git-scm.com/)
 - [VirtualBox](https://www.virtualbox.org/)
 
