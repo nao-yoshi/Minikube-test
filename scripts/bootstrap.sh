@@ -19,9 +19,9 @@ echo "========================================="
 sudo systemctl stop firewalld
 sudo systemctl disable firewalld
 
-## Install git Node.js
+## Install git and Node.js
 echo "========================================="
-echo "Start git Installation"
+echo "Start git and Node.js Installation"
 echo "========================================="
 sudo yum install -y git 
 curl -sL https://rpm.nodesource.com/setup_10.x | bash -
