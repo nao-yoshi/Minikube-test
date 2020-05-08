@@ -18,3 +18,10 @@ echo "Disable firewall"
 echo "========================================="
 sudo systemctl stop firewalld
 sudo systemctl disable firewalld
+
+## Install git
+echo "========================================="
+echo "Start git Installation"
+echo "========================================="
+sudo yum install -y git
+echo "========================================="
