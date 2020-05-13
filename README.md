@@ -40,7 +40,7 @@ You can deploy the test environment on your PC easily.
    ```
 7. Lastly, execute a command below to start minikube at your home directory on the CentOS.
    ```
-   [vagrant@minikube ~]$ start minikube
+   [vagrant@minikube ~]$ minikube start
    ```
 
 ### Option 1 (Install Docker Compose)
