@@ -12,6 +12,13 @@ echo "kubectl version"
 /usr/local/bin/kubectl version --client
 echo "========================================="
 
+## bash-completion Installation
+echo "========================================="
+echo "Start bash-completion installation ......"
+echo "========================================="
+sudo yum install -y bash-completion
+echo "========================================="
+
 ## minikube Installation
 echo "========================================="
 echo "Start minikube Installation"
@@ -25,5 +32,5 @@ echo "minimube version"
 /usr/local/bin/minikube version
 echo "========================================="
 rm minikube
-sudo yum -y install socat ebtables
+sudo yum install -y socat ebtables
 echo "========================================="
